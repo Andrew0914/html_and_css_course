@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background-image: url("./assets/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+}
+
+h1 {
+  margin: 32px 0;
+  text-align: center;
+}
+
+#card {
+  background-color: white;
+  width: 35%;
+  min-width: 350px;
+  max-width: 450px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 2px 4px 24px #e0e8ff;
+  overflow: hidden;
+}
+
+#card > img {
+  width: 100%;
+  /*border-radius: 10px 10px 0 0;*/
+}
+
+#container {
+  text-align: center;
+  padding: 32px;
+}
+
+.description {
+  font-size: 16px;
+  color: grey;
+}
+
+.mb {
+  margin-bottom: 24px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7ff;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 12px;
+  color: #4f4f4f;
+  font-weight: 600;
+}
+
+.link:hover {
+  color: #3829e0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #3829e0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 4px 8px #e0e8ff;
+  margin-bottom: 24px;
+}
