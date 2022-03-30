@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Form</title>
   </head>
@@ -18,20 +24,49 @@
         </p>
       </aside>
       <section>
-        <p><strong>Try it free 7 days</strong> then $20/mo. thereather</p>
+        <p class="callout">
+          <strong>Try it free 7 days</strong> then $20/mo. thereather
+        </p>
         <form action="http://any-url.com" method="post">
-          <input type="text" name="name" id="name" placeholder="Name" required/>
-          <input type="number" name="age" id="age" placeholder="Age" required/>
-          <input type="email" name="email" id="email" placeholder="your-email@domain.com" required/>
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+
+          <input type="number" name="age" id="age" placeholder="Age" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your-email@domain.com"
+            required
+          />
           <input type="date" name="birthday" id="birthday" />
           <input type="file" name="avatar-picture" id="avatar-picture" />
-          <input type="password" name="password" id="password" placeholder="Password" required/>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
           <select name="country" id="country">
             <option value="MX">Mexico</option>
             <option value="US">United States of America</option>
             <option value="JP">Japan</option>
           </select>
-          <textarea name="brief" id="brief" cols="30" rows="5" placeholder="A short description"></textarea>
+          <textarea
+            name="brief"
+            id="brief"
+            cols="30"
+            rows="5"
+            placeholder="A short description"
+          ></textarea>
           <label for="agree">
             Do you agree?
             <input type="checkbox" name="agree" id="agree" />
