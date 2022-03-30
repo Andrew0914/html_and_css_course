@@ -72,7 +72,18 @@ input[type="submit"]:hover {
   background-color: #35c483;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   width: auto;
   display: initial;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #9999fa;
+  border: none;
+}
+
+input:invalid {
+  outline-color: red;
 }
