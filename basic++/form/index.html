@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+
+<body>
+  <main>
+    <aside>
+      <h1>Learn to code by watching others</h1>
+      <p>Se how experienced developers solve problems in real-time.</p>
+      <p>
+        watchinng scripted tutorials is greate, but understanding how
+        developers think is invaluable
+      </p>
+    </aside>
+    <section>
+      <p>
+        <strong>Try it free 7 days</strong> then $20/mo. thereather
+      </p>
+      <form action="http://any-url.com/register.php" method="POST">
+        <input type="text" name="name" id="name">
+        <input type="number" name="age" id="age" step="1" max="99" min="18">
+        <input type="email" name="email" id="email">
+        <input type="date" name="birthday" id="birthday">
+        <input type="file" name="avatar" id="avatar">
+        <input type="password" name="password" id="password">
+        <select name="country" id="country">
+          <option value="MX">Mexico</option>
+          <option value="US">United States</option>
+          <option value="JP">Japan</option>
+        </select>
+        <textarea name="brief" id="brief" cols="30" rows="10"></textarea>
+        <label for="agree">
+          Do you agree?
+          <input type="checkbox" name="agree" id="agree">
+        </label>
+        <input type="submit" value="Claim your free trial">
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
