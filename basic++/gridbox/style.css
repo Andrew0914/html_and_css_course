@@ -27,5 +27,17 @@ header span {
 }
 
 main {
+  padding: 48px;
+}
+
+/*THUMBNAIL STYLES*/
+
+.thumbnail article {
+  background-color: #414141a1;
+  color: white;
   padding: 16px;
+}
+
+.thumbnail article>* {
+  margin-bottom: 8px;
 }
