@@ -28,6 +28,9 @@ header span {
 
 main {
   padding: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
 /*THUMBNAIL STYLES*/
@@ -39,7 +42,7 @@ main {
   /* FIRST */
   position: absolute;
   /* THEN */
-  top:0;
+  top: 0;
   left: 0;
   height: 100%;
 }
