@@ -36,8 +36,18 @@ main {
   background-color: #414141a1;
   color: white;
   padding: 16px;
+  /* FIRST */
+  position: absolute;
+  /* THEN */
+  top:0;
+  left: 0;
+  height: 100%;
 }
 
 .thumbnail article>* {
   margin-bottom: 8px;
+}
+
+.thumbnail {
+  position: relative;
 }
