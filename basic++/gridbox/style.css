@@ -50,4 +50,11 @@ main {
 
 .thumbnail {
   position: relative;
+  border-radius: 4px;
+  overflow-y: hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
 }
