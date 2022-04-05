@@ -86,3 +86,24 @@ textarea:focus {
 input:invalid {
   outline-color: red;
 }
+
+main {
+  display: flex;
+  gap: 25px;
+  padding: 24px;
+  margin: 48px auto;
+  width: 75%;
+  min-width: 850px;
+}
+
+main aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 1 0;
+}
+
+main section{
+  flex: 1.5 1 0;
+  max-width: 480px;
+}
