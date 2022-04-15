@@ -153,3 +153,32 @@ body {
 .issues-list-container {
   margin-top: calc(var(--space-unit) * 3);
 }
+
+.votes-tile {
+  background-color: #F2F4FE;
+  padding: calc(var(--space-unit) * 1);
+  border-radius: 8px;
+  color: var(--dark-color);
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.votes-tile img {
+  width: 16px;
+  height: 16px;
+}
+
+.issue {
+  display: flex;
+  column-gap: calc(var(--space-unit) * 5);
+  align-items: flex-start;
+}
+
+.issue .comments {
+  justify-content: end;
+  margin-left: auto;
+  align-self: center;
+}
