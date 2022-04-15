@@ -113,3 +113,8 @@ body {
 #roadmap-box ul>li:nth-child(3)::marker {
   color: var(--done-color);
 }
+
+.issues-nav-header {
+  background-color: var(--dark-color);
+  color: white;
+}
