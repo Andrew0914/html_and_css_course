@@ -1,4 +1,6 @@
 :root {
   /*colors*/
   --light-color: #efefef;
+  /*units*/
+  --space-unit: 8px;
 }

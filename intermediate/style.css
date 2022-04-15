@@ -6,3 +6,19 @@ body {
   background-color: var(--light-color);
   font-family: 'Jost', sans-serif;
 }
+
+/*** HOME ***/
+.container {
+  margin: calc(var(--space-unit) * 5) auto 0;
+  max-width: 900px;
+}
+
+.home-layout {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  column-gap: calc(var(--space-unit) * 4);
+}
+
+.home-layout .home-layout-content {
+  height: 100%;
+}
