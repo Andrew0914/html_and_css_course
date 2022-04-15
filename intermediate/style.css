@@ -1,1 +1,7 @@
 @import "./reset-styles.css";
+
+/*** GENERAL ***/
+body {
+  background-color: #efefef;
+  font-family: 'Jost', sans-serif;
+}
