@@ -149,3 +149,7 @@ body {
 .button-primary:hover {
   background-color: var(--doing-hover-color);
 }
+
+.issues-list-container {
+  margin-top: calc(var(--space-unit) * 3);
+}
