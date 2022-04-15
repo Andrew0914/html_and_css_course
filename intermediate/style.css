@@ -40,4 +40,13 @@ body {
   background-image: var(--main-gradient);
   color: white;
   padding-top: 50px;
+  position: relative;
+}
+
+#profile-box>img {
+  max-width: 75px;
+  position: absolute;
+  bottom: 55%;
+  left: calc(50% - 37px);
+  border-radius: 100%;
 }
