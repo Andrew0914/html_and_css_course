@@ -1,8 +1,13 @@
 :root {
   /*colors*/
   --light-color: #efefef;
-    /*gradients*/
-    --main-gradient: linear-gradient(90deg, rgba(64, 59, 138, 1) 0%, rgba(89, 89, 145, 1) 68%, rgba(255, 0, 131, 1) 100%);
+  --bg-tag-color: #F2F4FF;
+  --link-color: #4661E6;
+  /*gradients*/
+  --main-gradient: linear-gradient(90deg, rgba(64, 59, 138, 1) 0%, rgba(89, 89, 145, 1) 68%, rgba(255, 0, 131, 1) 100%);
   /*units*/
   --space-unit: 8px;
+  /*font sizes*/
+  --text-default: 16px;
+  --text-sm: 13px;
 }
