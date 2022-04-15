@@ -74,3 +74,19 @@ body {
   background-color: var(--link-color);
   color: var(--bg-tag-color);
 }
+
+#roadmap-box ul {
+  padding-inline-start: calc(var(--space-unit) * 2);
+  margin-top: calc(var(--space-unit) * 1);
+}
+
+#roadmap-box ul>li {
+  padding-left: calc(var(--space-unit) * 1);
+  letter-spacing: 1px;
+  font-size: var(--text-default);
+}
+
+#roadmap-box ul>li span {
+  font-weight: bold;
+  font-size: var(--text-lg);
+}
