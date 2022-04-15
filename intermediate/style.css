@@ -118,3 +118,34 @@ body {
   background-color: var(--dark-color);
   color: white;
 }
+
+.issues-nav-header select {
+  background-color: var(--dark-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.issues-nav-header select:focus {
+  border: none;
+  outline: none;
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+}
+
+.button-primary {
+  background-color: var(--doing-color);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: calc(var(--space-unit) * .5) calc(var(--space-unit) * 1);
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.button-primary:hover {
+  background-color: var(--doing-hover-color);
+}
