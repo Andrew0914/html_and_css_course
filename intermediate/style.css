@@ -97,3 +97,19 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+#roadmap-box ul>li::marker {
+  font-size: 18px;
+}
+
+#roadmap-box ul>li:nth-child(1)::marker {
+  color: var(--todo-color);
+}
+
+#roadmap-box ul>li:nth-child(2)::marker {
+  color: var(--doing-color);
+}
+
+#roadmap-box ul>li:nth-child(3)::marker {
+  color: var(--done-color);
+}
