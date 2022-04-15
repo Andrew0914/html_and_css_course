@@ -22,3 +22,22 @@ body {
 .home-layout .home-layout-content {
   height: 100%;
 }
+
+/*** Header ***/
+.box {
+  border-radius: 8px;
+  padding: calc(var(--space-unit) * 2);
+  background-color: white;
+  box-shadow: 2px 4px 8px lightgrey;
+}
+
+.box~.box {
+  margin-top: calc(var(--space-unit) * 3);
+}
+
+
+#profile-box {
+  background-image: var(--main-gradient);
+  color: white;
+  padding-top: 50px;
+}
