@@ -1,7 +1,8 @@
 @import "./reset-styles.css";
+@import "./variables.css";
 
 /*** GENERAL ***/
 body {
-  background-color: #efefef;
+  background-color: var(--light-color);
   font-family: 'Jost', sans-serif;
 }
