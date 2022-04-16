@@ -36,6 +36,13 @@ body {
 }
 
 /*** LAYOUTS ***/
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .flex-row-spb-center {
   display: flex;
   flex-direction: row;

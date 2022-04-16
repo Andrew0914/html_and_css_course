@@ -1,1 +1,33 @@
 @import "./style.css";
+
+.issue-form-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: calc(var(--space-unit) * 8);
+  max-width: 720px;
+  margin: calc(var(--space-unit) * 6) auto;
+}
+
+.issue-form-layout main {
+  width: 100%;
+}
+
+.goback {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#new-issue-form {
+  padding-top: 50px;
+  position: relative;
+}
+
+#new-issue-form .icon {
+  background-image: var(--main-gradient);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: -25px;
+}
