@@ -37,3 +37,19 @@
 .done-issue .issue-status-list>li:nth-child(1)::marker {
   color: var(--done-color);
 }
+
+.issue-tile {
+  border-top: 5px solid transparent;
+}
+
+.todo-issue {
+  border-color: var(--todo-color);
+}
+
+.doing-issue {
+  border-color: var(--doing-color);
+}
+
+.done-issue {
+  border-color: var(--done-color);
+}
