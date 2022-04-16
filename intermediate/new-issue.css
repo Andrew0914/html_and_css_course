@@ -31,3 +31,11 @@
   position: absolute;
   top: -25px;
 }
+
+.form-row {
+  /* display: inline; */
+  display: block;
+  /* display: inline-block; */
+  /* margin: 25px;
+  padding: 25px; */
+}
