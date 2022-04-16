@@ -1,0 +1,125 @@
+@import "./style.css";
+
+/*** HOME ***/
+.container {
+  margin: calc(var(--space-unit) * 5) auto 0;
+  max-width: 900px;
+}
+
+.home-layout {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  column-gap: calc(var(--space-unit) * 4);
+}
+
+.home-layout .home-layout-content {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+#profile-box {
+  background-image: var(--main-gradient);
+  color: white;
+  padding-top: 50px;
+  position: relative;
+}
+
+#profile-box>img {
+  max-width: 75px;
+  position: absolute;
+  bottom: 55%;
+  left: calc(50% - 37px);
+  border-radius: 100%;
+}
+
+#tag-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 100px;
+}
+
+#roadmap-box ul {
+  padding-inline-start: calc(var(--space-unit) * 2);
+  margin-top: calc(var(--space-unit) * 1);
+}
+
+#roadmap-box ul>li {
+  padding-left: calc(var(--space-unit) * 1);
+  letter-spacing: 1px;
+  font-size: var(--text-default);
+}
+
+#roadmap-box ul>li span {
+  font-weight: bold;
+  font-size: var(--text-lg);
+}
+
+#roadmap-box ul>li::marker {
+  font-size: 18px;
+}
+
+#roadmap-box ul>li:nth-child(1)::marker {
+  color: var(--todo-color);
+}
+
+#roadmap-box ul>li:nth-child(2)::marker {
+  color: var(--doing-color);
+}
+
+#roadmap-box ul>li:nth-child(3)::marker {
+  color: var(--done-color);
+}
+
+.issues-nav-header {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.issues-nav-header select {
+  background-color: var(--dark-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.issues-nav-header select:focus {
+  border: none;
+  outline: none;
+}
+
+.issues-list-container {
+  margin-top: calc(var(--space-unit) * 3);
+  max-height: calc(100% - 145px);
+  overflow-y: auto;
+}
+
+.votes-tile {
+  background-color: #F2F4FE;
+  padding: calc(var(--space-unit) * 1);
+  border-radius: 8px;
+  color: var(--dark-color);
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.votes-tile img {
+  width: 16px;
+  height: 16px;
+}
+
+.issue {
+  display: flex;
+  column-gap: calc(var(--space-unit) * 5);
+  align-items: flex-start;
+}
+
+.issue .comments {
+  justify-content: end;
+  margin-left: auto;
+  align-self: center;
+}
