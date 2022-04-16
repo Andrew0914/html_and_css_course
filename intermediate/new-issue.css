@@ -38,4 +38,27 @@
   /* display: inline-block; */
   /* margin: 25px;
   padding: 25px; */
+  margin-bottom: calc(var(--space-unit) * 1);
+}
+
+#new-issue-form .control {
+  width: 100%;
+  color: var(--dark-color);
+  background-color: var(--bg-tag-color);
+  border: none;
+  transition: all 100ms ease-in-out;
+  padding: calc(var(--space-unit) * 1.5) calc(var(--space-unit) * 2);
+  border-radius: 8px;
+}
+
+#new-issue-form .control:focus {
+  outline: 1px solid var(--link-color);
+}
+
+textarea.control {
+  resize: none;
+}
+
+#new-issue-form .group {
+  margin-top: calc(var(--space-unit) * 2);
 }

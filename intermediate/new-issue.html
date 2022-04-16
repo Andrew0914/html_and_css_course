@@ -27,15 +27,15 @@
       </div>
 
       <h2>Create New Issue</h2>
-      <div>
+      <div class="group">
         <h4>Issue title</h4>
         <small class="form-row">Add a short description or headline</small>
-        <input type="text" name="title">
+        <input type="text" name="title" class="control">
       </div>
-      <div>
+      <div class="group">
         <h4>Category</h4>
         <small class="form-row">Choose a category for your issue</small>
-        <select name="category">
+        <select name="category" class="control">
           <option value="feature">Feature</option>
           <option value="ui">UI</option>
           <option value="ux">UX</option>
@@ -43,26 +43,26 @@
           <option value="bug">Bug</option>
         </select>
       </div>
-      <div>
+      <div class="group">
         <h4>Issue status</h4>
         <small class="form-row">Select issue state</small>
-        <select name="status">
+        <select name="status" class="control">
           <option value="todo">To do</option>
           <option value="doing">Doing</option>
           <option value="Done">Done</option>
         </select>
       </div>
 
-      <div>
-        <h4>Feedback Detail</h4>
+      <div class="group">
+        <h4>Issue Detail</h4>
         <small class="form-row">Include any specific comments on what should be improved, added, etc.</small>
-        <textarea name="detail" cols="30" rows="10"></textarea>
+        <textarea name="detail" cols="30" rows="10" class="control"></textarea>
       </div>
 
-      <div>
+      <div class="group">
         <button>Delete</button>
         <button>Cancel</button>
-        <button class="button-primary">Add Feedback</button>
+        <button class="button-primary">Add Issue</button>
       </div>
     </form>
 
