@@ -63,7 +63,7 @@ body {
   padding: calc(var(--space-unit) * 1) calc(var(--space-unit) * 2);
   cursor: pointer;
   transition: all 250ms ease-in-out;
-  box-shadow: 2px 4px 8px lightgrey;
+  text-decoration: none;
 }
 
 .button-primary {
@@ -77,8 +77,17 @@ body {
 .button-danger {
   background-color: var(--danger-color);
 }
+
 .button-primary:hover {
   background-color: var(--doing-hover-color);
+}
+
+.button-secondary:hover {
+  background-color: var(--secondary-light-color);
+}
+
+.button-danger:hover {
+  background-color: var(--danger-dark-color);
 }
 
 /*** SCROLL BAR ***/
