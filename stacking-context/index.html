@@ -13,41 +13,48 @@
 
     .one {
       background-color: red;
-      z-index: 1;
+      z-index: 5;
       top: 20px;
       left: 10px;
     }
 
     .two {
       background-color: blue;
-      z-index: 3;
+      z-index: 1;
       top: 50px;
       left: 70px;
     }
 
     .three {
       background-color: yellow;
-      z-index: 3;
+      z-index: 2;
       top: 70px;
       left: 130px;
     }
 
     .four {
       background-color: green;
+      top: 80px;
+      left: 90px;
+      z-index: 11;
     }
 
     .five {
       background-color: black;
+      top: 120px;
+      left: 120px;
+      z-index: 10;
     }
   </style>
 </head>
 
 <body>
-
   <div class="box one"></div>
-  <div class="box two"></div>
+  <div class="box two">
+    <div class="box four"> </div>
+    <div class="box five"> </div>
+  </div>
   <div class="box three"></div>
-
 </body>
 
 </html>
