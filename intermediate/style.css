@@ -55,8 +55,7 @@ body {
   font-size: var(--text-sm);
 }
 
-.button-primary {
-  background-color: var(--doing-color);
+.button {
   border-radius: 8px;
   border: none;
   color: white;
@@ -67,6 +66,17 @@ body {
   box-shadow: 2px 4px 8px lightgrey;
 }
 
+.button-primary {
+  background-color: var(--doing-color);
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+}
+
+.button-danger {
+  background-color: var(--danger-color);
+}
 .button-primary:hover {
   background-color: var(--doing-hover-color);
 }
