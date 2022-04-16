@@ -9,7 +9,7 @@
   margin-top: calc(var(--space-unit) * 3);
 }
 
-.roadmap-container main .issues-column > small {
+.roadmap-container main .issues-column>small {
   display: block;
   margin-bottom: calc(var(--space-unit) * 2);
 }
@@ -18,4 +18,22 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
+}
+
+.issues-nav-header a {
+  color: white;
+  text-decoration: none;
+  font-size: var(--text-sm);
+}
+
+.todo-issue .issue-status-list>li:nth-child(1)::marker {
+  color: var(--todo-color);
+}
+
+.doing-issue .issue-status-list>li:nth-child(1)::marker {
+  color: var(--doing-color);
+}
+
+.done-issue .issue-status-list>li:nth-child(1)::marker {
+  color: var(--done-color);
 }

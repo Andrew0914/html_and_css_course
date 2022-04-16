@@ -35,6 +35,48 @@ body {
   color: var(--bg-tag-color);
 }
 
+.issues-nav-header {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.votes-tile {
+  background-color: #F2F4FE;
+  padding: calc(var(--space-unit) * 1);
+  border-radius: 8px;
+  color: var(--dark-color);
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  font-size: var(--text-sm);
+}
+
+.votes-tile img {
+  width: 16px;
+  height: 16px;
+}
+
+.issue-status-list {
+  padding-inline-start: calc(var(--space-unit) * 2);
+}
+
+.issue-status-list>li {
+  padding-left: calc(var(--space-unit) * 1);
+  letter-spacing: 1px;
+  font-size: var(--text-default);
+}
+
+.issue-status-list>li span {
+  font-weight: bold;
+  font-size: var(--text-lg);
+}
+
+.issue-status-list l>li::marker {
+  font-size: 18px;
+}
+
 /*** LAYOUTS ***/
 .flex-row-center {
   display: flex;
@@ -55,6 +97,7 @@ body {
   font-size: var(--text-sm);
 }
 
+/*** UI ***/
 .button {
   border-radius: 8px;
   border: none;
@@ -105,4 +148,22 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(85, 85, 85, 0.47);
+}
+
+/*** UTILITIES ***/
+
+.mt1 {
+  margin-top: calc(var(--space-unit) * 1);
+}
+
+.mt2 {
+  margin-top: calc(var(--space-unit) * 2);
+}
+
+.mb1 {
+  margin-bottom: calc(var(--space-unit) * 1);
+}
+
+.mb2 {
+  margin-bottom: calc(var(--space-unit) * 2);
 }

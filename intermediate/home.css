@@ -40,41 +40,16 @@
   height: 100px;
 }
 
-#roadmap-box ul {
-  padding-inline-start: calc(var(--space-unit) * 2);
-  margin-top: calc(var(--space-unit) * 1);
-}
-
-#roadmap-box ul>li {
-  padding-left: calc(var(--space-unit) * 1);
-  letter-spacing: 1px;
-  font-size: var(--text-default);
-}
-
-#roadmap-box ul>li span {
-  font-weight: bold;
-  font-size: var(--text-lg);
-}
-
-#roadmap-box ul>li::marker {
-  font-size: 18px;
-}
-
-#roadmap-box ul>li:nth-child(1)::marker {
+.issue-status-list>li:nth-child(1)::marker {
   color: var(--todo-color);
 }
 
-#roadmap-box ul>li:nth-child(2)::marker {
+.issue-status-list>li:nth-child(2)::marker {
   color: var(--doing-color);
 }
 
-#roadmap-box ul>li:nth-child(3)::marker {
+.issue-status-list>li:nth-child(3)::marker {
   color: var(--done-color);
-}
-
-.issues-nav-header {
-  background-color: var(--dark-color);
-  color: white;
 }
 
 .issues-nav-header select {
@@ -95,22 +70,6 @@
   overflow-y: auto;
 }
 
-.votes-tile {
-  background-color: #F2F4FE;
-  padding: calc(var(--space-unit) * 1);
-  border-radius: 8px;
-  color: var(--dark-color);
-  font-weight: bold;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-}
-
-.votes-tile img {
-  width: 16px;
-  height: 16px;
-}
 
 .issue {
   display: flex;
