@@ -1,0 +1,12 @@
+@import "./reset-styles.css";
+@import "./variables.css";
+
+body {
+  background-color: var(--light-color);
+  font-family: 'Jost', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: calc(var(--space-unit) * 5) auto 0;
+}
