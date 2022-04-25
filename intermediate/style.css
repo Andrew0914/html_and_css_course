@@ -10,3 +10,39 @@ body {
   max-width: 900px;
   margin: calc(var(--space-unit) * 5) auto 0;
 }
+
+.home-layout {
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  column-gap: calc(var(--space-unit) * 4);
+}
+
+.home-layout .home-layout-content{
+  height: 100%;
+}
+
+#profile-box {
+  background-image: var(--main-gradiente);
+  color: white;
+  padding-top:50px ;
+  position: relative;
+}
+
+.box {
+  border-radius: 8px;
+  padding: calc(var(--space-unit) * 2);
+  background-color: white;
+  box-shadow: 2px 4px 8px lightgrey;
+}
+
+.box~.box{
+  margin-top: calc(var(--space-unit) * 3);
+}
+
+#profile-box > img {
+  max-width: 75px;
+  border-radius: 100%;
+  position: absolute;
+  left: calc(50% - 37px);
+  top: -37px;
+}
