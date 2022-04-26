@@ -1,8 +1,19 @@
 :root {
   /* COLORS */
   --light-color: #efefef;
+  --bg-tag-color: #F2F4FF;
+  --link-color: #4661E6;
+  --todo-color: #F49F85;
+  --doing-color: #AD1FEA;
+  --done-color: #62BCFA;
+  --dark-color: #373F68;
+  --doing-hover-color: #C75AF6;
   /* GRADIENTS */
   --main-gradiente: linear-gradient(90deg, rgba(64, 59, 138, 1) 0%, rgba(89, 89, 145, 1) 68%, rgba(255, 0, 131, 1) 100%);
   /* UNITS */
   --space-unit: 8px;
+  /* TEXT */
+  --text-default: 16px;
+  --text-sm: 13px;
+  --text-lg: 20px;
 }

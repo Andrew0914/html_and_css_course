@@ -17,18 +17,71 @@
 <body class="container home-layout">
   <!-- PAGE HEADER-->
   <header class="home-layout-header">
+    <!-- PROFILE BOX -->
     <aside id="profile-box" class="box">
       <img src="./assets/avatar4.png" alt="avatar">
       <h3>Juan Perez</h3>
       <h5>Developer</h5>
     </aside>
-    <div class="box">HELLO</div>
+    <!-- TAGS BOX -->
+    <aside class="box" id="tag-box">
+      <span class="tag">All</span>
+      <span class="tag">UI</span>
+      <span class="tag">UX</span>
+      <span class="tag">Enhancement</span>
+      <span class="tag">Feature</span>
+      <span class="tag">Bug</span>
+    </aside>
+    <!-- ROAD MAP BOX-->
+    <aside class="box" id="roadmap-box">
+      <nav class="flex-row-spb-center ">
+        <h4>Roadmap</h4>
+        <a href="#">View</a>
+      </nav>
+      <ul>
+        <li>
+          <div class="flex-row-spb-center ">Todo <span>0</span></div>
+        </li>
+        <li>
+          <div class="flex-row-spb-center ">Doing <span>0</span></div>
+        </li>
+        <li>
+          <div class="flex-row-spb-center ">Done <span>0</span></div>
+        </li>
+      </ul>
+    </aside>
   </header>
   <!-- MAIN CONTENT -->
   <main class="home-layout-content">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, omnis non ratione totam dolore consequuntur,
-    assumenda explicabo, recusandae ut accusantium nesciunt consequatur provident. Porro delectus quas odio quibusdam,
-    ducimus tenetur?
+    <!-- ISSUES NAV -->
+    <nav class="box flex-row-spb-center issues-nav-header">
+      <span>💡</span>
+      <span>6 Suggestions</span>
+      <label for="category" class="text-sm">
+        Sort by:
+        <select name="category" id="category">
+          <option value="0">Most Upvotes</option>
+          <option value="1">Most Recent</option>
+          <option value="2">Most Commented</option>
+        </select>
+      </label>
+      <a href="#" class="button-primary">+ Add Issue</a>
+    </nav>
+    <!-- ISSUES LIST-->
+    <section class="issues-list-container ">
+      <article class="box issue">
+        <span class="votes-tile">
+          <img src="./assets/up-arrow.svg" alt="up">
+          <span>110</span>
+        </span>
+        <div>
+          <h4>Add tags for solutions</h4>
+          <p>Easier to search for solutions on a specific stack</p>
+          <span class="tag">Feature</span>
+        </div>
+        <span class="comments">5 💬</span>
+      </article>
+    </section>
   </main>
 </body>
 
