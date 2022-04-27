@@ -8,6 +8,10 @@
   --done-color: #62BCFA;
   --dark-color: #373F68;
   --doing-hover-color: #C75AF6;
+  --secondary-color: #3A4374;
+  --secondary-light-color: #5b66a4;
+  --danger-color: #E98888;
+  --danger-dark-color: #d26161;
   /* GRADIENTS */
   --main-gradiente: linear-gradient(90deg, rgba(64, 59, 138, 1) 0%, rgba(89, 89, 145, 1) 68%, rgba(255, 0, 131, 1) 100%);
   /* UNITS */

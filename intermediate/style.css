@@ -43,23 +43,50 @@ body {
   justify-content: space-between;
 }
 
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /*** TEXT ***/
 .text-sm {
   font-size: var(--text-sm);
 }
 
-.button-primary {
-  background-color: var(--doing-color);
-  border-radius: 4px;
+/*** UI ***/
+.button {
+  border-radius: 8px;
   border: none;
   color: white;
   font-weight: bold;
-  padding: calc(var(--space-unit) * .5) calc(var(--space-unit) * 1);
+  padding: calc(var(--space-unit) * 1) calc(var(--space-unit) * 2);
   cursor: pointer;
   transition: all 250ms ease-in-out;
   text-decoration: none;
 }
 
+.button-primary {
+  background-color: var(--doing-color);
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+}
+
+.button-danger {
+  background-color: var(--danger-color);
+}
+
 .button-primary:hover {
   background-color: var(--doing-hover-color);
+}
+
+.button-secondary:hover {
+  background-color: var(--secondary-light-color);
+}
+
+.button-danger:hover {
+  background-color: var(--danger-dark-color);
 }

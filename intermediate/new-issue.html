@@ -16,23 +16,26 @@
   <title>Awesome page</title>
 </head>
 
-<body>
+<body class="issue-form-layout">
   <header>
-    <a href="./index.html">👈 Go back</a>
+    <a href="./index.html" class="goback">👈 Go back</a>
   </header>
   <main>
-    <form>
-      <img src="./assets/plus.svg" alt="add">
-      <h2>Create New Issue</h2>
-      <div>
-        <h4>Issue title</h4>
-        <small>Add a short description or headline</small>
-        <input type="text" name="title">
+    <form class="box" id="new-issue-form">
+      <div class="icon flex-row-center">
+        <img src="./assets/plus.svg" alt="add">
       </div>
-      <div>
+
+      <h2>Create New Issue</h2>
+      <div class="group">
+        <h4>Issue title</h4>
+        <small class="form-row">Add a short description or headline</small>
+        <input type="text" name="title" class="control">
+      </div>
+      <div class="group">
         <h4>Category</h4>
-        <small>Choose a category for your issue</small>
-        <select name="category">
+        <small class="form-row">Choose a category for your issue</small>
+        <select name="category" class="control">
           <option value="feature">Feature</option>
           <option value="ui">UI</option>
           <option value="ux">UX</option>
@@ -40,20 +43,28 @@
           <option value="bug">Bug</option>
         </select>
       </div>
-      <div>
+      <div class="group">
         <h4>Issue status</h4>
-        <small>Select issue state</small>
-        <select name="status">
+        <small class="form-row">Select issue state</small>
+        <select name="status" class="control">
           <option value="todo">To do</option>
           <option value="doing">Doing</option>
           <option value="Done">Done</option>
         </select>
       </div>
 
-      <div>
-        <h4>Feedback Detail</h4>
-        <small>Include any specific comments on what should be improved, added, etc.</small>
-        <textarea name="detail" cols="30" rows="10"></textarea>
+      <div class="group">
+        <h4>Issue Detail</h4>
+        <small class="form-row">Include any specific comments on what should be improved, added, etc.</small>
+        <textarea name="detail" cols="30" rows="10" class="control"></textarea>
+      </div>
+
+      <div class="group flex-row-spb-center">
+        <button class="button button-danger">Delete</button>
+        <div>
+          <button class="button button-secondary">Cancel</button>
+          <button class="button button-primary">Add Issue</button>
+        </div>
       </div>
     </form>
 
