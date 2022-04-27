@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <!-- FONT FAMILY-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="new-issue.css">
+  <title>Awesome page</title>
+</head>
+
+<body>
+  <header>
+    <a href="./index.html">👈 Go back</a>
+  </header>
+  <main>
+    <form>
+      <img src="./assets/plus.svg" alt="add">
+      <h2>Create New Issue</h2>
+      <div>
+        <h4>Issue title</h4>
+        <small>Add a short description or headline</small>
+        <input type="text" name="title">
+      </div>
+      <div>
+        <h4>Category</h4>
+        <small>Choose a category for your issue</small>
+        <select name="category">
+          <option value="feature">Feature</option>
+          <option value="ui">UI</option>
+          <option value="ux">UX</option>
+          <option value="Enhancement">Enhancement</option>
+          <option value="bug">Bug</option>
+        </select>
+      </div>
+      <div>
+        <h4>Issue status</h4>
+        <small>Select issue state</small>
+        <select name="status">
+          <option value="todo">To do</option>
+          <option value="doing">Doing</option>
+          <option value="Done">Done</option>
+        </select>
+      </div>
+
+      <div>
+        <h4>Feedback Detail</h4>
+        <small>Include any specific comments on what should be improved, added, etc.</small>
+        <textarea name="detail" cols="30" rows="10"></textarea>
+      </div>
+    </form>
+
+  </main>
+</body>
+
+</html>
