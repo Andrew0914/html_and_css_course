@@ -34,10 +34,9 @@
 
 .form-row {
   /* display: inline; */
-  display: block;
+  /* flex, grid, inline, block, inline-block, inline-flex , inline-grid*/
   /* display: inline-block; */
-  /* margin: 25px;
-  padding: 25px; */
+  display: block;
   margin-bottom: calc(var(--space-unit) * 1);
 }
 

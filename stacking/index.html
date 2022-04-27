@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      border: 1px solid black;
+      opacity: 0.7;
+      position: absolute;
+    }
+
+    .one {
+      background-color: red;
+      z-index: 3;
+      top: 20px;
+      left: 10px;
+    }
+
+    .two {
+      background-color: blue;
+      z-index: 4;
+      top: 50px;
+      left: 70px;
+    }
+
+    .three {
+      background-color: yellow;
+      z-index: 1;
+      top: 70px;
+      left: 130px;
+    }
+
+    .four {
+      background-color: green;
+      top: 80px;
+      left: 90px;
+      z-index: 9999;
+    }
+
+    .five {
+      background-color: black;
+      top: 120px;
+      left: 120px;
+      z-index: 10;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box one">
+  </div>
+  <div class="box two">
+  </div>
+  <div class="box three">
+    <div class="box four"></div>
+    <div class="box five"></div>
+  </div>
+
+</body>
+
+</html>

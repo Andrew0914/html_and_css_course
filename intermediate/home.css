@@ -91,7 +91,7 @@
 
 .issues-list-container {
   margin-top: calc(var(--space-unit) * 3);
-  max-height: calc(100% - 145px);
+  height: calc(100% - 100px);
   overflow-y: auto;
 }
 

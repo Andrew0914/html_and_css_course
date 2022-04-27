@@ -1,0 +1,21 @@
+@import './style.css';
+
+.roadmap-container {
+  margin: calc(var(--space-unit) * 5) auto 0;
+  max-width: 900px;
+}
+
+.issues-tiles-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+
+.roadmap-container main {
+  margin-top: calc(var(--space-unit) * 3);
+}
+
+.roadmap-container main .issues-column>small {
+  display: block;
+  margin-bottom: calc(var(--space-unit) * 2);
+}
